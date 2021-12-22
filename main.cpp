@@ -389,27 +389,6 @@ void setUpBoards(
     // Scramble the board, prompting for the number of desired rotations, which sets the difficulty.
     currentBoard.scrambleBoard();
         } //end setUpBoards()
-
-
-                                                                        // ******  IMPORTANT!!!  READ THIS!!!  ******
-                                                                        //
-                                                                        // FIRST get the program working using classes BEFORE implementing the linked-list portion
-                                                                        // outlined in the code below.
-                                                                        //
-                                                                        // Once your classes version of program 5 is working also implement a Node struct or class
-                                                                        // used to store each move.  Your Node class should have private data members for:
-                                                                        //       1. A Board  (of type Board defined above)
-                                                                        //       2. A moveNumber
-                                                                        //       3. A pointer to the next Node
-                                                                        // Implement class Board here
-                                                                        // ...
-
-                                                                        //-------------------------------------------------------------------------------------
-                                                                        // Node declaration to implement a linked list to store moves, used to implement
-                                                                        // undo. You should store the old move number, the old board, and a pointer
-                                                                        // to the next Node.  Note that for this program you are not required to use
-                                                                        // a class for the Node.  It could just be a struct without worrying about the
-                                                                        // proper uses of public and private.
                                                                         class Node {
 public:
     Board theBoard;                                                 // Stores the entire class board in theBoard
